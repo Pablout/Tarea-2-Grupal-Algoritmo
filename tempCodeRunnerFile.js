@@ -1,1 +1,0 @@
-const write = console.log
