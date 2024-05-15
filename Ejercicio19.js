@@ -9,9 +9,9 @@ const verificarParImpar = () => {
     let numero = parseInt(read("Ingrese un número: "));
 
     if (numero % 2 === 0) {
-        write(numero + " es un número par.");
+        write(numero + " es divisible por 2 y es un número par.");
     } else {
-        write(numero + " es un número impar.");
+        write(numero + " no es divisible por 2 y es un número impar.");
     }
 };
 

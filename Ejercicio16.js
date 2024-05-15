@@ -4,8 +4,10 @@
 // Proceso: Función que convierte un carácter en su valor ASCII si es una vocal.
 // Salida: Se verifica si el carácter es una vocal y se muestra su valor ASCII correspondiente.
 
+const read = require('prompt-sync')();
 
 function vocalAscii(){
+  
     let vocal=""
     vocal = read("ingrese vocal: ")
     if (vocal == "a"){
@@ -21,7 +23,7 @@ function vocalAscii(){
     } else if (vocal == "I") {
       console.log("73")
     } else if (vocal == "o") {
-      console.log("101")
+      console.log("111")
     } else if (vocal == "O") {
       console.log("79")
     } else if (vocal == "u") {
@@ -32,4 +34,4 @@ function vocalAscii(){
       console.log("caracter no es una vocal")
     }
   }
-  vocalAscii()
+  vocalAscii();
